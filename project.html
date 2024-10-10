@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .avatar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg rounded bg-secondary px-3 mt-3 mb-4">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light fw-medium me-5" href="#"><img src="sukopng.png" alt="" srcset="" width="70px"></a>
+              <div class="avatar bg-light">
+                <span>K5</span>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-2">
+                <ul class="list-group">
+                    <li class="list-group-item bg-secondary text-light" aria-current="true">Side Menu</li>
+                    <li class="list-group-item">Karyawan</li>
+                    <li class="list-group-item">Roles</li>
+                    <li class="list-group-item">Settings</li>
+                  </ul>
+              </div>
+              <div class="col">
+                
+                <div class="card py-3 px-4 mb-4">
+                    
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="card bg-secondary text-light mt-2">
+                                <div class="card-body">
+                                  Tambah Karyawan
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="namaKaryawan" class="form-label">Nama Karyawan</label>
+                            <input type="text" class="form-control" id="namaKaryawan">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="alamatKaryawan" class="form-label">Alamat Karyawan</label>
+                            <input type="text" class="form-control" id="alamatKaryawan">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="nik" class="form-label">NIK</label>
+                            <input type="number" class="form-control" id="nik">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="jk" class="form-label">Jenis Kelamin</label>
+                            <input class="form-control" list="opsi" id="jk">
+                            <datalist id="opsi">
+                                <option value="Laki-laki">
+                                <option value="Perempuan">
+                            </datalist>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="agama" class="form-label">Agama</label>
+                            <input class="form-control" list="opsiAgama" id="agama">
+                            <datalist id="opsiAgama">
+                                <option value="Islam">
+                                <option value="Kristen">
+                                <option value="Buddha">
+                                <option value="Katholik">
+                                <option value="Hindu">
+                                <option value="Konghucu">
+                            </datalist>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nomor Identitas</label>
+                            <input type="number" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nomor Telepon</label>
+                            <input type="number" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">NPWP</label>
+                            <input type="number" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nomor Rekening</label>
+                            <input type="number" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nama Bank</label>
+                            <input type="text" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nama Cabang</label>
+                            <input type="text" class="form-control">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label class="form-label">Nama Pemilik Rekening</label>
+                            <input type="text" class="form-control">
+                          </div>
+                    </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+
+    <script type="module" src="js/bootstrap.min.js"></script>
+</body>
+</html>
